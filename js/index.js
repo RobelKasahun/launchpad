@@ -19,16 +19,19 @@ function playAudio(buttonClassName) {
         case 'beat2':
             audio = new Audio('./beats/beat2.wav');
             audio.play();
+            audio.loop = true;
             break;
 
         case 'beat3':
             audio = new Audio('./beats/beat3.wav');
             audio.play();
+            audio.loop = true;
             break;
 
         case 'beat4':
             audio = new Audio('./beats/beat4.wav');
             audio.play();
+            audio.loop = true;
             break;
 
         case 'beat5':
