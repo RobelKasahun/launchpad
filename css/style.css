@@ -3,9 +3,8 @@
     padding: 0px;
 }
 
-.btns {
-    justify-content: center;
-    align-items: center;
+.container {
+    margin-top: 40px;
 }
 
 .btns>.row>.beat {
