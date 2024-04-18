@@ -17,7 +17,7 @@ body {
 }
 
 .btns>.row>.beat {
-    margin: 0;
+    margin: 2px;
     padding: 0;
     height: 100vh;
     display: flex;
