@@ -6,8 +6,6 @@
 }
 
 body {
-    border: 1px solid black;
-    height: 100vh;
     background-color: #ff33ee;
 }
 
@@ -54,4 +52,26 @@ body {
     margin: 25px 0px;
     color: #ffffff;
     font-family: "Jersey 10", sans-serif;
+}
+
+.heading2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.keyboard-keys{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    margin: 20px auto;
+}
+
+span {
+    color: #ffffff;
+    border: 1px solid #8ee414;
+    width: 50px;
+    text-align: center;
+    margin: 10px 3px;
+    border-radius: 5px;
 }
