@@ -3,8 +3,17 @@
     padding: 0px;
 }
 
+body {
+    background-color: #090909;
+}
+
 .container {
-    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .btns>.row>.beat {
@@ -17,11 +26,11 @@
     background: linear-gradient(to right, #ff5733, #a0a755, #33ff57, #337eff, #ff33ee, #ff5733);
     background-size: 1200% 100%;
     animation: gradientAnimation 40s ease infinite;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     gap: 30px;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 @keyframes gradientAnimation {
