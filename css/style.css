@@ -19,7 +19,6 @@ body {
 .btns>.row>.beat {
     margin: 2px;
     padding: 0;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
