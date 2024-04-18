@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.btns {
+    justify-content: center;
+    align-items: center;
+}
+
+.btns>.row>.beat {
+    margin: 2px;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #ff5733, #a0a755, #33ff57, #337eff, #ff33ee, #ff5733);
+    background-size: 1200% 100%;
+    animation: gradientAnimation 40s ease infinite;
+    width: 300px;
+    height: 300px;
+    gap: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
