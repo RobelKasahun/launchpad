@@ -2,10 +2,9 @@ let buttons = document.querySelectorAll('.beat');
 let audio = undefined;
 const index = 1;
 for (const button of buttons) {
-    button.addEventListener('touch', function () {
+    button.addEventListener('click', function () {
         let buttonClassName = button.classList.value.split(' ')[index];
         playAudio(buttonClassName);
-        console.log(buttonClassName);
     });
 }
 
